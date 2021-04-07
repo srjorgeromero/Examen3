@@ -1,13 +1,24 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 	<title>Examen 3 Unidad 3</title>
+	{% load static %}
 	<style type="text/css">
 		*{background-color: violet;
-			color: white;}
+			color: white;
+			text-align: center;}
+			img{
+				width: 30%;
+				border-radius: 1px;
+			}
 	</style>
 </head>
 <body>
 <h1>Jorge Alberto Romero Gonzalez</h1>
+<img src="{% static 'imagenes/1.jpg' %}">
+<img src="{% static 'imagenes/2.jpg' %}">
+<img src="{% static 'imagenes/3.jpg' %}">
+<img src="{% static 'imagenes/4.jpg' %}">
+<img src="{% static 'imagenes/5.jpg' %}">
 </body>
 </html>
